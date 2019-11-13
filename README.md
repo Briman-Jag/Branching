@@ -10,3 +10,4 @@
 * `git branch branchName` - Crete local branch `branchName`
 * `git checkout branchName` - Move to branch `branchName`
 * `git branch` - Display local branch which we are on
+* `git checkout -b newBranch` - Create and check out branch `newBranch`
