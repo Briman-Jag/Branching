@@ -12,3 +12,21 @@
 * `git branch` - Display local branch which we are on
 * `git checkout -b newBranch` - Create and check out branch `newBranch`
 * `git status` - display status of local repo
+
+### Merging
+* Add and commit local brach.
+* Push local branch to remote.
+* Pull `master` from remote into local branches
+```bash
+git checkout newBranch
+git pull origin master
+```
+* Resolve merge conflicts
+* Commit and push local branch
+``` bash
+git add .
+git commit -m 'Merging master with newBranch'
+git push origin newBranch
+```
+* On Github , create Pull Request
+* Teammates merge Pull Request into master.
